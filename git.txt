@@ -1,0 +1,7 @@
+git init - initialise git repo
+
+git status - this will show, what changes have been made since prev version to present.
+
+git add - it will add files to appear in next version.
+
+git commit - it will create version.

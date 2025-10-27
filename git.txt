@@ -5,3 +5,7 @@ git status - this will show, what changes have been made since prev version to p
 git add - it will add files to appear in next version.
 
 git commit - it will create version.
+
+git reset
+
+git checkout -- .

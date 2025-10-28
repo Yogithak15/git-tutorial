@@ -5,7 +5,3 @@ git status - this will show, what changes have been made since prev version to p
 git add - it will add files to appear in next version.
 
 git commit - it will create version.
-
-git reset . -it will take out from staging area.(unstage)
-
-git checkout -- . - it will take out from working area(changes).(undo the files).

@@ -5,3 +5,35 @@ git status - this will show, what changes have been made since prev version to p
 git add - it will add files to appear in next version.
 
 git commit - it will create version.
+
+git reset . -it will take out from staging area.(unstage)
+
+git checkout -- . - it will take out from working area(changes).(undo the files).
+
+git log - show all versions.
+
+git log --all
+
+git checkout commithash id - to view the prev version.
+
+git checkout id . - to restore code from prev version.
+
+
+while pusing, we need to tell git, which repository and branch.
+
+while connecting to github, always use url start with http.
+origin - it is name of repository. it point to github clone URL.
+
+
+git remote add origin https://github.com/Yogithak15/git-tutorial.git
+git remote - name of repository.
+git remote -v
+git config --global credential.username "Yogithak15"
+
+
+check branch list : git branch
+create branch : git checkout -b <name_of_branch>
+
+2 branches : main and master
+main is used after 2020 as as primary branch.
+master was using as primary branch before oct 2020.

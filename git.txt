@@ -6,6 +6,8 @@ git add - it will add files to appear in next version.
 
 git commit - it will create version.
 
+git commit --amend -m "message" - to commit to prev version.
+
 git reset . -it will take out from staging area.(unstage)
 
 git checkout -- . - it will take out from working area(changes).(undo the files).
